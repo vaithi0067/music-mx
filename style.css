@@ -1,0 +1,281 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+   
+}
+
+img{
+    border-radius: 30px;
+}
+
+
+/* ... header ...*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 252, 249);
+}
+
+img{
+    margin-left: 20px;
+}
+
+nav ul {
+    padding-left: 35%;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.but1{
+
+    margin-right: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer
+}
+.but1:hover{
+    text-decoration: underline;
+}
+
+/*... section 1 ...*/
+
+.sec1{
+    /* background-color: rgb(234, 255, 248); */
+    
+    /* height: 400px; */
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 3%;
+
+}
+
+.sec1 h1{
+
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 80px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+  
+}
+.sub1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+/* ... section 3 ... */
+
+.sec3{
+    margin-top: 10%;
+    
+}
+
+.im2{
+    border-radius: 30px;
+}
+.hed1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .hed2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+} */
+.group{
+    margin-top: 5%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.but2{
+
+    margin-top: 5%;
+    margin-left: 540px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 10px;
+    padding: 1px solid red;
+    cursor: pointer;
+}
+
+/* ... section 4 ... */
+
+.sec4 h1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.im3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.im4{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ... section 5 ... */
+
+.sec5{
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hed3{
+    font-size: 50px;
+}
+.hed4{
+    margin-top: 05%;
+    font-size: 50px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tex{
+    font-size: 30px;
+}
+
+  /* ...footer... */
+
+/* ... section 6 ... */
+
+.tab{
+
+    font-size: 150%;
+    margin-top: 05%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.td1{
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    padding-left: 20%;
+    background-color: rgb(245, 95, 95);
+}
+.td2{
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    padding-right: 20%;
+    padding-left: 5%;
+    background-color: bisque;
+}
+.tabl1 {
+    padding-bottom: 05%;
+}
+.tabl2 {
+    padding-bottom: 05%;
+}
+
+.but3{
+    width: 40%;
+    height: 20%;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 1%;
+    font-size: 80%;
+}
+.but4{
+ 
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(245, 95, 95);
+    padding: 1%;
+    font-size: 80%;
+}
+
+.lin{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lin .line3 li,h2{
+    padding-bottom: 05%;
+}
+.lin .line2 li,h2{
+    padding-bottom: 05%;
+}
+.lin .line4 li,h2{
+    padding-bottom: 015%;
+}
+
+.lag{
+    margin-top: 0%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgb(87, 82, 82);
+    height: 40px;
+}
+.art{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.soc1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+color: black;
+}
